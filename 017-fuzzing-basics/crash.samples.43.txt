@@ -1,0 +1,32 @@
+[New Thread 944.0x2a7c]
+
+Program received signal SIGSEGV, Segmentation fault.
+0x753586e8 in msvcrt!memcpy () from C:\WINDOWS\System32\msvcrt.dll
+0x753586e8 <msvcrt!memcpy+200>:	1183451016	48873729	-2097068152	-947715386
+0x753586f8 <msvcrt!memcpy+216>:	150569730	-1510758798	-1802164993	-1871366777
+0x75358708 <msvcrt!memcpy+232>:	109760803	-964491384
+#0  0x753586e8 in msvcrt!memcpy () from C:\WINDOWS\System32\msvcrt.dll
+#1  0x753589de in msvcrt!memcpy_s () from C:\WINDOWS\System32\msvcrt.dll
+#2  0x75349160 in msvcrt!fputws () from C:\WINDOWS\System32\msvcrt.dll
+#3  0x0800000a in ?? ()
+#4  0xffffffff in ?? ()
+#5  0x009338e8 in ?? ()
+#6  0x75349305 in msvcrt!fread () from C:\WINDOWS\System32\msvcrt.dll
+#7  0x75349288 in msvcrt!fread () from C:\WINDOWS\System32\msvcrt.dll
+#8  0x00401717 in main (argc=2, argv=0x932080) at asdf.c:22
+eax            0x41	65
+ecx            0x62	98
+edx            0x2	2
+ebx            0x9338e8	9648360
+esp            0x60fdb4	0x60fdb4
+ebp            0x60fdbc	0x60fdbc
+esi            0x9338e8	9648360
+edi            0x800000a	134217738
+eip            0x753586e8	0x753586e8 <msvcrt!memcpy+200>
+eflags         0x10202	[ IF RF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x53	83
+gs             0x2b	43
