@@ -146,7 +146,7 @@ def find_signal_gadget(offset):
   if err == "TIMEOUT":
     return (err, ret)
 
-  if err == "CRASH" and len(ret) > 0:
+  if err == "DISCONNECTED" and len(ret) > 0:
     return (err, ret)
 
   return False
