@@ -1,0 +1,98 @@
+goo.gl/KkSCXK
+
+goo.gl/axsAHt
+
+goo.gl/qudiHJ
+
+
+58 f0 58 caps lock turned on
+1b f0 1b S
+58 f0 58 caps lock turned off
+44 f0 44 o
+2d f0 2d r
+2d f0 2d r
+35 f0    y
+
+goo.gl/oUg99i
+
+
+
+co_linecount
+
+co_argcount 1
+            0         1                                                   2      3   4   5    6
+co_consts (None, '4e5d4e92865a4e495a86494b5a5d49525261865f5758534d4a89', 'hex', 89, 255, 115, 50)
+co_flags 67
+co_name check_password
+co_names ('decode', 'len', 'False', 'all', 'zip', 'ord')
+co_nlocals 4
+co_stacksize 6
+co_varnames ('s', 'good', 'cs', 'cg')
+
+        def check_password(s):
+
+              0 LOAD_CONST               1 4e5d4e92865a4e495a86494b5a5d49525261865f5758534d4a89
+              3 LOAD_ATTR                0 decode
+              6 LOAD_CONST               2 hex
+              9 CALL_FUNCTION            1
+             12 STORE_FAST               1 
+             good = "4e5d4e92865a4e495a86494b5a5d49525261865f5758534d4a89".decode("hex")
+
+             15 LOAD_GLOBAL              1 len
+             18 LOAD_FAST                0 s
+             21 CALL_FUNCTION            1 len(s)
+
+             24 LOAD_GLOBAL              1 len(good)
+             27 LOAD_FAST                1
+             30 CALL_FUNCTION            1
+
+             33 COMPARE_OP               3 (!=)
+
+             36 POP_JUMP_IF_FALSE       43
+             39 LOAD_GLOBAL              2
+             42 RETURN_VALUE        
+             if len(s) != len(good):
+                return False
+
+        >>   43 LOAD_GLOBAL              3 all
+             46 BUILD_LIST               0 [
+
+             49 LOAD_GLOBAL              4 zip
+             52 LOAD_FAST                0 s
+             55 LOAD_FAST                1 good
+             58 CALL_FUNCTION            2 
+
+             61 GET_ITER            
+        >>   62 FOR_ITER                52 (to 117)
+             65 UNPACK_SEQUENCE          2
+
+             68 STORE_FAST               2
+             71 STORE_FAST               3
+          for cs, cg in zip(s, good):             
+
+             74 LOAD_GLOBAL              5 
+             77 LOAD_FAST                2 
+             80 CALL_FUNCTION            1
+
+             83 LOAD_CONST               3
+             86 BINARY_SUBTRACT     
+
+             87 LOAD_CONST               4
+             90 BINARY_AND          
+
+             91 LOAD_CONST               5
+             94 BINARY_XOR          
+             95 LOAD_CONST               6
+             98 BINARY_XOR          
+             ((ord(cs) - 89) & 255) ^ 115 ^ 50 == ord(cg) 
+
+             99 LOAD_GLOBAL              5
+            102 LOAD_FAST                3
+            105 CALL_FUNCTION            1
+
+
+            108 COMPARE_OP               2 (==)
+            111 LIST_APPEND              2
+            114 JUMP_ABSOLUTE           62
+        >>  117 CALL_FUNCTION            1
+            120 RETURN_VALUE        
