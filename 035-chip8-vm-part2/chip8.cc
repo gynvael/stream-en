@@ -373,7 +373,7 @@ void Chip8::SetScreenBuffer(uint8_t *buf, uint32_t w, uint8_t h) {
 
 void Chip8::DrawBigPixel(int x, int y, uint8_t color) {
   for (int k = y * PIXEL_SIZE; k < (y + 1) * PIXEL_SIZE; k++) {
-    for (int j = x * PIXEL_SIZE; j < (x + 1) * PIXEL_SIZE; k++) {
+    for (int j = x * PIXEL_SIZE; j < (x + 1) * PIXEL_SIZE; j++) {
       screen[(k * screen_w + j) * 4 + 0] = color;
       screen[(k * screen_w + j) * 4 + 1] = color;
       screen[(k * screen_w + j) * 4 + 2] = color;
