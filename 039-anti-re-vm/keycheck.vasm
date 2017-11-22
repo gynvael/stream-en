@@ -1,0 +1,29 @@
+%include "vm.inc"
+
+
+; k[0] ^ k[3] == 0x13371337
+vmov vr5, vr0
+vxor vr5, vr3
+vmovi vr6, 0x13371337
+vxor vr5, vr6  ; Good --> vr5 == 0
+; res0 is in vr5
+
+; k[0] & 0x14141414 == 0
+vmovi vr6, 0x14141414
+vand vr0, vr6  ; Good --> vr0 == 0
+; res1 is in vr0
+
+; k[1] | k[2] == 0x7f7f7f7f
+vor vr1, vr2
+vmovi vr6, 0x7f7f7f7f
+vxor vr1, vr6  ; Good --> vr1 == 0
+; res2 is in vr1
+
+vor vr5, vr0
+vor vr5, vr1  ; Good --> vr5 == 0
+
+vmov vr0, vr5
+
+vend
+
+
