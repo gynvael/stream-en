@@ -1,0 +1,1 @@
+passwd.zip:$pkzip2$1*2*2*0*2c*20*4341ba5d*0*46*0*2c*4341*6eab*327fdc864aefd7fd5a7462f9355e15e84fc09d4e7d3a5ecd1318f77f7f6f2c86b62edc0a6d7eb87cba92a613*$/pkzip2$:::::/b/stream-livecoding/en_eps_057/security_by_obscurity/passwd.zip
