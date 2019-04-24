@@ -1,0 +1,21 @@
+rax            0x0                 0
+rbx            0x10                16
+rcx            0x13                19
+rdx            0x11                17
+rsi            0xe                 14
+rdi            0xd                 13
+rbp            0xf                 0xf
+rsp            0x14                0x14
+r8             0x5                 5
+r9             0x6                 6
+r10            0x7                 7
+r11            0x8                 8
+r12            0x9                 9
+r13            0xa                 10
+r14            0xb                 11
+r15            0xc                 12
+rip            0x15                0x15
+eflags         0x216               [ PF AF IF ]
+cs             0x17                23
+ss             0x3                 3
+ds             0x0                 0

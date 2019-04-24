@@ -1,0 +1,22 @@
+555555554000-555555555000 r--p 00000000 00:34 20                         /media/sf_B_DRIVE/stream-livecoding/en_eps_077/broken
+555555555000-555555556000 r-xp 00001000 00:34 20                         /media/sf_B_DRIVE/stream-livecoding/en_eps_077/broken
+555555556000-555555557000 r--p 00002000 00:34 20                         /media/sf_B_DRIVE/stream-livecoding/en_eps_077/broken
+555555557000-555555558000 r--p 00002000 00:34 20                         /media/sf_B_DRIVE/stream-livecoding/en_eps_077/broken
+555555558000-555555559000 rw-p 00003000 00:34 20                         /media/sf_B_DRIVE/stream-livecoding/en_eps_077/broken
+7ffff7dc1000-7ffff7de3000 r--p 00000000 08:01 14942313                   /lib/x86_64-linux-gnu/libc-2.28.so
+7ffff7de3000-7ffff7f54000 r-xp 00022000 08:01 14942313                   /lib/x86_64-linux-gnu/libc-2.28.so
+7ffff7f54000-7ffff7fa0000 r--p 00193000 08:01 14942313                   /lib/x86_64-linux-gnu/libc-2.28.so
+7ffff7fa0000-7ffff7fa1000 ---p 001df000 08:01 14942313                   /lib/x86_64-linux-gnu/libc-2.28.so
+7ffff7fa1000-7ffff7fa5000 r--p 001df000 08:01 14942313                   /lib/x86_64-linux-gnu/libc-2.28.so
+7ffff7fa5000-7ffff7fa7000 rw-p 001e3000 08:01 14942313                   /lib/x86_64-linux-gnu/libc-2.28.so
+7ffff7fa7000-7ffff7fad000 rw-p 00000000 00:00 0 
+7ffff7fce000-7ffff7fd1000 r--p 00000000 00:00 0                          [vvar]
+7ffff7fd1000-7ffff7fd3000 r-xp 00000000 00:00 0                          [vdso]
+7ffff7fd3000-7ffff7fd4000 r--p 00000000 08:01 14942289                   /lib/x86_64-linux-gnu/ld-2.28.so
+7ffff7fd4000-7ffff7ff4000 r-xp 00001000 08:01 14942289                   /lib/x86_64-linux-gnu/ld-2.28.so
+7ffff7ff4000-7ffff7ffc000 r--p 00021000 08:01 14942289                   /lib/x86_64-linux-gnu/ld-2.28.so
+7ffff7ffc000-7ffff7ffd000 r--p 00028000 08:01 14942289                   /lib/x86_64-linux-gnu/ld-2.28.so
+7ffff7ffd000-7ffff7ffe000 rw-p 00029000 08:01 14942289                   /lib/x86_64-linux-gnu/ld-2.28.so
+7ffff7ffe000-7ffff7fff000 rw-p 00000000 00:00 0 
+7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
